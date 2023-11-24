@@ -1,0 +1,33 @@
+.cartITem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.quantity {
+  border: 1px solid grey;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
+.summary {
+  display: flex;
+  gap: 3rem;
+}
+.price {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+.actions button {
+  border-color: red;
+  border-radius: 5px;
+  border-width: 0.5px;
+  color: red;
+}
+.actions br {
+  color: red;
+  width: 1.5px;
+}
